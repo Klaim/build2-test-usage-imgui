@@ -1,5 +1,5 @@
 libs =
-import libs += imgui-platform-glfw%lib{imgui-platform-glfw} imgui-render-opengl3%lib{imgui-render-opengl3}
+import libs += imgui-platform-glfw%liba{imgui-platform-glfw} imgui-render-opengl3%liba{imgui-render-opengl3}
 
 exe{myapp}: {hxx ixx txx cxx}{**} $libs testscript
 
