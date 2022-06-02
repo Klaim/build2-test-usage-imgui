@@ -11,6 +11,5 @@ depends: * build2 >= 0.14.0
 depends: * bpkg >= 0.14.0
 #depends: libhello ^1.0.0
 
-depends: imgui-platform-glfw == 1.86.0-a.0.20220601215117
-depends: imgui-render-opengl3 == 1.86.0-a.0.20220601215117
-
+depends: imgui-platform-glfw >= 1.86.0-
+depends: imgui-render-opengl3 >= 1.86.0-
