@@ -1,0 +1,6 @@
+libs =
+import libs += imgui-platform-glfw%lib{imgui-platform-glfw} imgui-render-opengl3%lib{imgui-render-opengl3}
+
+exe{myapp}: {hxx ixx txx cxx}{**} $libs testscript
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"
