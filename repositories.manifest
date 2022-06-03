@@ -8,5 +8,5 @@ summary: myapp project repository
 
 :
 role: prerequisite
-location: https://github.com/Rookfighter/imgui.git#feature/split-backends
+location: https://github.com/Rookfighter/imgui.git#ce74cec38637822e03c5ac7a5f1bb86b48192f19
 
