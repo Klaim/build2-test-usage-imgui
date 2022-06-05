@@ -12,4 +12,7 @@ depends: * bpkg >= 0.14.0
 #depends: libhello ^1.0.0
 
 depends: imgui-platform-glfw >= 1.86.0-
+# depends: imgui-render-opengl3 >= 1.86.0-
+# depends: opengl-meta
 depends: imgui-render-vulkan >= 1.86.0-
+depends: vulkan-meta

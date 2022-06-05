@@ -10,3 +10,12 @@ summary: myapp project repository
 role: prerequisite
 location: https://github.com/Rookfighter/imgui.git#feature/split-backends
 
+
+:
+role: prerequisite
+location: https://github.com/build2-packaging/vulkan-meta.git#master
+
+:
+role: prerequisite
+location: https://github.com/build2-packaging/opengl-meta.git#master
+
