@@ -1,7 +1,7 @@
 libs =
 import libs += imgui-platform-glfw%lib{imgui-platform-glfw} 
 # import libs += opengl-meta%lib{opengl-gl} imgui-render-opengl3%lib{imgui-render-opengl3} 
-import libs += vulkan-meta%lib{vulkan} imgui-render-vulkan%lib{imgui-render-vulkan} 
+import libs += imgui-render-vulkan%lib{imgui-render-vulkan} # vulkan-meta%lib{vulkan}
 
 exe{myapp}: {hxx ixx txx cxx}{**} $libs testscript
 
