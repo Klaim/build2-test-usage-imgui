@@ -1,21 +1,19 @@
 : 1
 summary: myapp project repository
 
-#:
-#role: prerequisite
-#location: https://pkg.cppget.org/1/stable
-#trust: ...
-
 :
 role: prerequisite
-location: https://github.com/Rookfighter/imgui.git#feature/split-backends
+location: https://pkg.cppget.org/1/stable
+# trust: ...
 
 
-:
-role: prerequisite
-location: https://github.com/build2-packaging/vulkan-meta.git#master
+########################################################################
+# If you want to use an experimental version of the packages:
 
-:
-role: prerequisite
-location: https://github.com/build2-packaging/opengl-meta.git#master
+# :
+# role: prerequisite
+# location: https://github.com/build2-packaging/imgui.git#main
 
+# :
+# role: prerequisite
+# location: https://github.com/build2-packaging/glfw.git#master
